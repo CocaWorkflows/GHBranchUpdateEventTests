@@ -1,9 +1,0 @@
-Name: BranchCreateVerification
-SchemaVersion: "1.0"
-RunMode: PARALLEL
-Actions:
-    MockAction:
-        Identifier: aws/workflows-mock-gamma@v1
-        Configuration:
-            MillisecondDelay: 0
-            Result: "Succeed"
